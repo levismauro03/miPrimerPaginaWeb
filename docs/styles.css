@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+h1 {
+  padding: 20px;
+  color: darksalmon;
+  text-align: center;
+  text-shadow: 2px 2px 2px #ced4da;
+  letter-spacing: 2px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+}
+.menu {
+  list-style-type: none;
+  text-align: center;
+  font-size: 20px;
+  font-weight: lighter;
+  font-style: italic;
+  color: antiquewhite;
+}
+.menu li {
+  display: inline-block;
+  text-decoration: none;
+  background-color: coral;
+  padding: 10px;
+  border: 2px solid cornsilk;
+  border-radius: 10px;
+}
+a:link {
+  text-decoration: none;
+  color: darkgray;
+}
+a:visited {
+  color: antiquewhite;
+}
+a:hover {
+  color: darkred;
+}
+div.texto_productos {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: relative;
+  left: 30px;
+}
+div.caja1 {
+  padding: 20px 0;
+  margin: auto;
+  width: 100%;
+  background-color: coral;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div.caja2 {
+  padding: 20px 0;
+  margin: auto;
+  width: 100%;
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.titulo_h2 {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+}
+img.imagenes {
+  max-width: 30%;
+  text-align: center;
+}
+div.centrado {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+}
+div.texto {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  max-width: 80%;
+  margin: auto;
+  border: 10px dashed sandybrown;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+div.postres {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  flex-flow: row wrap;
+}
+div.imagenes.postres {
+  max-width: 100%;
+  padding: 10px;
+}
+div.caja3 {
+  text-align: center;
+  padding: 20px 0;
+  margin: auto;
+  width: 100%;
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
